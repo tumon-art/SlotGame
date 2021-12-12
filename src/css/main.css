@@ -1,0 +1,42 @@
+.main {
+    display: grid;
+    justify-content: center;
+}
+.header {
+    text-align: center;
+    box-shadow: 2px 2px 11px 1px red;
+    font-family: sans-serif;
+    color: rgb(189, 184, 184);
+    padding: 7px;
+    border-radius: 133px 133px ;
+}
+
+.container {
+    margin: 5em 0 0 0 ;
+    width: 400px;
+    height: 100px;
+    border-radius: 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: green;
+    background-color: rgb(37, 37, 37);
+    border: 3px solid rgb(250, 75, 75);
+}
+
+.container div {
+    font-size: 46px;
+}
+
+.container button {
+    border: 3px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.containerHold h1 {
+    text-align: center;
+    
+    color: rgb(230, 223, 223);
+}
